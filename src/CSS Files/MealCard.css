@@ -1,0 +1,15 @@
+.meal-card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+.meal-card-img{
+    width: 100%;
+    border-radius: 8px;
+}
+.meal-card-btn-details{
+    cursor: pointer;
+    padding: 5px 10px;
+}

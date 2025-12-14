@@ -1,0 +1,8 @@
+.meal-cards-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.meal-component-div{
+    padding: 20px;
+}
