@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./CSS Files/MealDetails.css";
 export default function MealDetails() {
   const { id } = useParams();
@@ -17,7 +17,7 @@ export default function MealDetails() {
 
   return (
     <div className="mealdetail-div">
-      <h1>{details.strMeal}</h1>
+      <h1 className="meal-detail-h1">{details.strMeal}</h1>
       <img
         src={details.strMealThumb}
         alt={details.strMeal}
@@ -29,6 +29,11 @@ export default function MealDetails() {
           Kategori: {details.strCategory} | Bölge: {details.strArea}
         </h3>
         <p>{details.strInstructions}</p>
+        <div className="back-meal-div">
+          <Link to="/meal" className="meal-detail-back-to-meals">
+            Yemeklere geri dön
+          </Link>
+        </div>
       </div>
     </div>
   );

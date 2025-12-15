@@ -4,6 +4,7 @@ import Home from "./Linkler/Home";
 import About from "./Linkler/About";
 import Meal from "./Linkler/Meal";
 import MealDetails from "./MealDetails";
+import "./style.css";
 
 export default function App() {
   return (

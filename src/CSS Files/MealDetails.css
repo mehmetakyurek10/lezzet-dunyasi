@@ -15,3 +15,24 @@
 .mealdetail-description-div p{
     line-height: 1.6;
 }
+.meal-detail-h1{
+    text-align: center;
+}
+.meal-detail-back-to-meals{
+    color: #FFD700;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}   
+.meal-detail-back-to-meals:hover{
+    color: #FFEB3B;
+    text-shadow:
+    0 0 5px #FFD700,
+    0 0 10px #FFD700,
+    0 0 20px #FFD700;
+}
+.back-meal-div{
+    text-align: center;
+    margin-top: 30px;
+}

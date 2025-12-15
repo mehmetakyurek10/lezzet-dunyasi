@@ -1,15 +1,41 @@
-.meal-card{
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    width: 200px;
-    text-align: center;
+.meal-card {
+  border: 1px solid #FFD700;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
 }
-.meal-card-img{
-    width: 100%;
-    border-radius: 8px;
+
+.meal-card-name {
+  margin: 10px 0;
+  text-align: center;
 }
-.meal-card-btn-details{
-    cursor: pointer;
-    padding: 5px 10px;
+
+.meal-card a {
+  margin-top: auto;       
+  text-align: center;
+}
+
+.meal-card-btn-details {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  background-color: #FFD700;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in;
+}
+
+.meal-card-btn-details:hover{
+  transform: scale(1.1);
+}
+.meal-card-btn-details:active{
+  background-color: hsl(40, 100%, 50%);
+}
+
+@media (max-width:540px) {
+    .meal-card{
+        width: 100%;
+        max-width: 380px;
+    }
 }

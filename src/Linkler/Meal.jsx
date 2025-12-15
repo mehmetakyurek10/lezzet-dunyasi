@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MealCard from "../MealCard";
 import "../CSS Files/Meal.css";
+import Home from "./Home";
 export default function Meal() {
   const [meals, setMeals] = useState([]);
   useEffect(() => {

@@ -31,7 +31,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 1.  **Projeyi Klonlayın:**
 
     ```bash
-    git clone (https://github.com/mehmetakyure10/lezzet-dunyasi.git)
+    git clone https://github.com/mehmetakyurek10/lezzet-dunyasi
     ```
 
 2.  **Proje Klasörüne Girin:**

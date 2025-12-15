@@ -8,7 +8,7 @@ export default function MealCard({ data }) {
         alt={data.strMeal}
         className="meal-card-img"
       />
-      <h3>{data.strMeal}</h3>
+      <h3 className="meal-card-name">{data.strMeal}</h3>
       <Link to={`/meal/${data.idMeal}`}>
         <button className="meal-card-btn-details">Detayları Gör</button>
       </Link>

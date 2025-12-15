@@ -8,9 +8,15 @@ export default function Layout() {
       <div className="header-navbar">
         <img src={Logo} alt="" className="layout-logo" />
         <nav>
-          <NavLink to="/">Ana Sayfa</NavLink>
-          <NavLink to="/about">Hakkımızda</NavLink>
-          <NavLink to="/meal">Yemekler</NavLink>
+          <NavLink to="/" className="nav-link">
+            Ana Sayfa
+          </NavLink>
+          <NavLink to="/about" className="nav-link">
+            Hakkımızda
+          </NavLink>
+          <NavLink to="/meal" className="nav-link">
+            Yemekler
+          </NavLink>
         </nav>
       </div>
 
