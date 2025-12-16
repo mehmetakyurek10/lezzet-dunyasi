@@ -5,6 +5,10 @@
 }
 .layout-logo{
  width: 100px;
+ cursor: pointer;
+}
+.layout-logo:hover{
+  transform: scale(1.04);
 }
 .nav-link {
   color: #FFD700;

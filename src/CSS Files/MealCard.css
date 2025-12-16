@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.meal-card-img{
+  border-radius: 5px;
+}
+
 .meal-card-name {
   margin: 10px 0;
   text-align: center;
