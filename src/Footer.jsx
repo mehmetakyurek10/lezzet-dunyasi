@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="copy-right">
-        © {new Date().getFullYear()} Restoran. Tüm hakları saklıdır.
+        © {new Date().getFullYear()} Deniz Lezzetleri. Tüm hakları saklıdır.
       </p>
     </>
   );

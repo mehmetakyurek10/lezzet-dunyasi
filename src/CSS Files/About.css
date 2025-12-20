@@ -1,3 +1,76 @@
-.about-main-div{
-    height: 100vh;
+.about {
+  margin: 0 auto;
+  padding: 80px 20px;
+  color: #f5f5f5;
+  background-image: url(../Picture/about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.about-hero {
+  text-align: center;
+  margin-bottom: 80px;
+   
+}
+
+.about-hero h1 {
+  color: #ffd700;
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.about-hero-subtitle {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.about-card {
+  background-color: #111;
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  box-shadow: 0 0 10px yellow;
+}
+.about-card:hover{
+    transform: translateY(-5px);
+}
+
+.about-card h3 {
+  color: #ffd700;
+  margin-bottom: 14px;
+}
+
+.about-card p,
+.about-card li {
+  color: #ddd;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.about-card ul {
+  padding-left: 18px;
+}
+
+
+.about-footer {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.about-footer h2 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.about-footer p {
+  color: #ccc;
 }
